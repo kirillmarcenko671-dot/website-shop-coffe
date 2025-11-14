@@ -2,7 +2,7 @@
 ОПИСАНИЕ ПРОЕКТА
 CoffeeHub — это современное React-приложение для кофейни, предлагающее полный цикл услуг:от онлайн-заказа кофе до бронирования столиков. Проект демонстрирует возможности современных React-технологий в создании пользовательских интерфейсов для HoReCa
 Установака и запуск
-git clone https://github.com/your-username/coffee-shop-react.git
+git clone https://github.com/your-username/coffee-shop-react.git(ссылка как пример)
 cd coffee-shop-react
 npm install
 npm start
@@ -17,7 +17,7 @@ const ProductCard = ({ product, onAddToCart }) => {
   return (
     <div className="product-card">
       <img 
-        src={product.image} 
+        src={product.image}                                   (Код создан из обычного проекта)
         alt={product.name}
         className="product-image"
       />
